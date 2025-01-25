@@ -6,12 +6,12 @@ This script fetches real-time weather data for the specified latitude and longit
 *   **Frame 1:** Displays the current weather condition icon (e.g., sunny, cloudy, rainy) based on the weather code.
 *   **Frame 2:** Displays the current temperature in Celsius, rendered with a dynamic colour that corresponds to the temperature range (e.g., cooler tones for low temperatures, warmer tones for high temperatures).
 
-The generated GIF is automatically sent to the connected dot-matrix display via the `python3-idotmatrix-client` library. By default, the script updates the weather information every 30 minutes, but this interval can be customised in the configuration file (`config.ini`).
+The generated GIF is automatically sent to the connected dot-matrix display via the `python3-idotmatrix-client` [library](https://github.com/derkalle4/python3-idotmatrix-client). By default, the script updates the weather information every 30 minutes, but this interval can be customised in the configuration file (`config.ini`).
 
 Step 1: Ensure Prerequisites
 ----------------------------
 
-Make sure the `python3-idotmatrix-client` [library](https://github.com/derkalle4/python3-idotmatrix-client) is installed or accessible in your Python environment. If it is not, navigate to the `python3-idotmatrix-client` directory and install it using:
+Make sure the `python3-idotmatrix-client` is installed or accessible in your Python environment. If it is not, navigate to the `python3-idotmatrix-client` directory and install it using:
 
     pip install .
 
