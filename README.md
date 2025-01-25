@@ -62,11 +62,12 @@ Notes
 *   idotmatrix-weather script by:
     *   [@artywah.bsky.social](https://bsky.app/profile/artywah.bsky.social)
     *   With a lot of help from ChatGPT
+    *   
 *   Weather data provided by:
     *   [Open-Meteo](https://open-meteo.com/en/terms)
     *   License: Free for non-commercial use
-*   Original weather icons:
 
-*   Source: [Iconset: Weather Color](https://www.iconfinder.com/iconsets/weather-color-2)
-*   Author: Sihan Liu
-*   License: Free for commercial use
+*   Original weather icons:
+    *   Source: [Iconset: Weather Color](https://www.iconfinder.com/iconsets/weather-color-2)
+    *   Author: Sihan Liu
+    *   License: Free for commercial use
