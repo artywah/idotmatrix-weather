@@ -56,13 +56,28 @@ Step 5: Verify and Debug
 
 Check the console for debug messages and `debug` directory for generated GIFs or rendered frames in case of issues.
 
+Temperature colour range table
+------------------------------
+
+| Temperature Range (°C) | Colour Description       | Example HEX Value |
+|------------------------|--------------------------|-------------------|
+| ≤0                     | White (Freezing or below)| #FFFFFF           |
+| 1-5                    | Dark Blue                | #0000CC           |
+| 6-10                   | Medium Blue              | #3333FF           |
+| 11-15                  | Light Blue               | #6699FF           |
+| 16-19                  | Sky Blue                 | #99CCFF           |
+| 20-29                  | Light Orange             | #FFCC99           |
+| 30-39                  | Orange                   | #FFA500           |
+| 40-50                  | Bright Red               | #FF4500           |
+| ≥51                    | Dark Red (Extreme Heat)  | #990000           |
+
 Notes
 -----
 
 *   idotmatrix-weather script by:
     *   [@artywah.bsky.social](https://bsky.app/profile/artywah.bsky.social)
     *   With a lot of help from ChatGPT
-    *   
+      
 *   Weather data provided by:
     *   [Open-Meteo](https://open-meteo.com/en/terms)
     *   License: Free for non-commercial use
